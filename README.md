@@ -8,7 +8,7 @@ Prototype: [Prototype}()
 
 ### Experiments Summary    
 | No | Title             | Short Description | Expected Result | Pass | Repeat with QPU |
-|:---|-------------------|-----|-----|-----|------|
+|:---|-------------------|-----|-----|:----:|:-----:|
 | #1 | Variable Count    | | Correct No | ✅ | |
 | #2 | Coefficient Range | | penalties ~10–100× objective |  | ✅ |  |
 | #3 | all-zero energy   | |  high (infeasible) |  |  |  |
