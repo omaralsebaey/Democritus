@@ -2,7 +2,6 @@
 
 ## Experiments: STAGE 1
 
-|Experiments Summary |
 | No      | Title   | Abstract | Expected Result | Pass | 
 |--- -----|------------|---------|---------|---------|
 | #1      | 10.21       | 0.52    | 9.0        | 11.1       |
