@@ -3,5 +3,5 @@
 ## Experiments
 
 - **EXP TEST**  
-  Notebook: [TEST](omaralsebaey/Democritus/blob/main/Experiment1.ipynb)  
-  Plots: `experiments/offset/plots/`
+  Notebook: [TEST](Democritus/blob/main/Experiment1.ipynb)  
+  Plots: `Democritus/blob/main/EXPTEST.png/`
