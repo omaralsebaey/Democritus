@@ -3,6 +3,6 @@
 ## Experiments
 
 - **EXP TEST**  
-  Notebook: [experiments/offset/offset_experiment.ipynb](experiments/offset/offset_experiment.ipynb)  
+  Notebook: [Experiment1.ipynb](Experiment.ipynb)  
   Data: `experiments/offset/data/`  
   Plots: `experiments/offset/plots/`
