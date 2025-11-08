@@ -18,8 +18,8 @@ This is the first prototype I have created for the project: [Main Code](). It is
 
 
 
-- **EXP TEST**  
-  Notebook: [TEST](https://github.com/omaralsebaey/Democritus/blob/main/Experiment1.ipynb)  
-  Abstract: xxx
-  Expected Result:
-  Pass: ✅
+- **Experiment 1: Variable Count**  
+Notebook: [Variable Count](https://github.com/omaralsebaey/Democritus/blob/main/Experiment1.ipynb)  
+Abstract: This test is to check if the BQM contains all required variables. Nothing extra, Nothing missing.
+Expected Result: Correct Number of variables
+Pass: ✅
