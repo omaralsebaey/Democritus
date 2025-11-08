@@ -8,13 +8,13 @@ This is the first prototype I have created for the project: [Main Code](). It is
 | No | Title             | Purpose | Short Description | Expected Result | Pass | Repeat with QPU |
 |:---|-------------------|:-----:|-----|-----|:----:|:-----:|
 | #1 | Variable Count    | Testing | | Correct No | ✅ | ❌ |
-| #2 | Coefficient Range | Research | | penalties ~10–100× objective |  | ✅ |  |
-| #3 | all-zero energy   | Test | |  high (infeasible) |  |  | ❌ |
-| #4 | one-hot energy    | Test | | lowest when constraint satisfied |  |  | ✅ |
-| #5 | sampler run       | Test | | returns diverse samples |  |  | ✅ | 
-| #6 | feasibility check | Test | | all violations = 0 |  |  | ✅ |
-| #7 | route cost check  | Test | | matches true cost |  |  | ✅ |
-| #8 | visualization     | Research | | continuous, valid routes |  |  | ✅ |
+| #2 | Coefficient Range | Research | | penalties ~10–100× objective |  | ✅ |
+| #3 | all-zero energy   | Test | |  high (infeasible) |  | ❌ |
+| #4 | one-hot energy    | Test | | lowest when constraint satisfied |  | ❌ |
+| #5 | sampler run       | Test | | returns diverse samples |  | ✅ | 
+| #6 | feasibility check | Test | | all violations = 0 |  | ✅ |
+| #7 | route cost check  | Test | | matches true cost |  | ✅ |
+| #8 | visualization     | Research | | continuous, valid routes |  | ✅ |
 
 
 
