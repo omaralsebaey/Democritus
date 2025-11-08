@@ -19,6 +19,6 @@ This is the first prototype I have created for the project: [Main Code](https://
 
 - **Experiment 1: Variable Count**  
 Notebook: [Variable Count](https://github.com/omaralsebaey/Democritus/blob/main/Experiment1.ipynb)  
-Abstract: This test is to check if the BQM contains all required variables. Nothing extra, Nothing missing.
+Abstract: This test is to check if the BQM contains all required variables. Nothing extra, Nothing missing.  
 Expected Result: Correct Number of variables.  
 Pass: ✅
