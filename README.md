@@ -14,12 +14,11 @@ This is the first prototype I have created for the project: [Main Code](https://
 | #5 | sampler run       | Test | | returns diverse samples |  | ✅ | 
 | #6 | feasibility check | Test | | all violations = 0 |  | ✅ |
 | #7 | route cost check  | Test | | matches true cost |  | ✅ |
-| #8 | visualization     | Research | | continuous, valid routes |  | ✅ |
-
-
+| #8 | visualization     | Research | | continuous, valid routes |  | ✅ |  
+<br>
 
 - **Experiment 1: Variable Count**  
 Notebook: [Variable Count](https://github.com/omaralsebaey/Democritus/blob/main/Experiment1.ipynb)  
 Abstract: This test is to check if the BQM contains all required variables. Nothing extra, Nothing missing.
-Expected Result: Correct Number of variables.
+Expected Result: Correct Number of variables.  
 Pass: ✅
