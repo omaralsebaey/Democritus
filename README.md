@@ -9,7 +9,7 @@ This is the first prototype I have created for the project: [Main Code](https://
 |:---|-------------------|:-----:|-----|-----|:----:|:-----:|
 | #1 | Variable Count    | Testing | | Correct No | ✅ | ❌ |
 | #2 | Coefficient Range | Research | | penalties ~10–100× objective |  | ✅ |
-| #3 | all-zero energy   | Test | |  high (infeasible) |  | ❌ |
+| #3 | All zero energy   | Test | |  Cost too high | ✅ | ❌ |
 | #4 | one-hot energy    | Test | | lowest when constraint satisfied |  | ❌ |
 | #5 | sampler run       | Test | | returns diverse samples |  | ✅ | 
 | #6 | feasibility check | Test | | all violations = 0 |  | ✅ |
