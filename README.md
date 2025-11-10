@@ -22,3 +22,10 @@ Notebook: [Variable Count](https://github.com/omaralsebaey/Democritus/blob/main/
 Abstract: This test is to check if the BQM contains all required variables. Nothing extra, Nothing missing.  
 Expected Result: Correct Number of variables.  
 Pass: ✅
+
+- **Experiment 3: All Zero Solution**
+Notebook: [All Zero Solution](https://github.com/omaralsebaey/Democritus/blob/main/Experiment3.ipynb)
+Abstract: We need to make sure the solver does not think that an all zero solution (as in no routes used, 
+no customers visited) is a viable solution.
+Expected Result:
+Pass: ✅
