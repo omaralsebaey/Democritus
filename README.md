@@ -11,10 +11,9 @@ This is the first prototype I have created for the project: [Main Code](https://
 | #2 | Coefficient Range | Research | penalties ~10–100× objective |  | ✅ |
 | #3 | All zero energy   | Test | Cost too high | ✅ | ❌ |
 | #4 | one-hot energy    | Test | Lowest cost when constraint satisfied |  | ❌ |
-| #5 | sampler run       | Test | returns diverse samples |  | ✅ | 
-| #6 | feasibility check | Test | all violations = 0 |  | ✅ |
-| #7 | route cost check  | Test | matches true cost |  | ✅ |
-| #8 | visualization     | Research | continuous, valid routes |  | ✅ |  
+| #5 | Feasibility check | Test | all violations = 0 | ✅ | ✅ |
+| #6 | Manual cost check  | Test | Match true cost | ✅ | ✅ |
+| #7 | visualization     | Research | continuous, valid routes |  | ✅ |  
 <br>
 
 - **Experiment 1: Variable Count**  
@@ -23,9 +22,39 @@ Abstract: This test is to check if the BQM contains all required variables. Noth
 Expected Result: Correct Number of variables.  
 Pass: ✅
 
+- **Experiment 2:**  
+Notebook: []()  
+Abstract:   
+Expected Result:  
+Pass:
+
 - **Experiment 3: All Zero Solution**  
 Notebook: [All Zero Solution](https://github.com/omaralsebaey/Democritus/blob/main/Experiment3.ipynb)  
 Abstract: We need to make sure the solver does not think that an all zero solution (as in no routes used, 
 no customers visited) is a viable solution.  
 Expected Result: Cost too high  
 Pass: ✅
+
+- **Experiment 4:**  
+Notebook: []()  
+Abstract:   
+Expected Result:  
+Pass:
+
+- **Experiment 5:**  
+Notebook: []()  
+Abstract:   
+Expected Result:  
+Pass:
+
+- **Experiment 6:**  
+Notebook: []()  
+Abstract:   
+Expected Result:  
+Pass:
+
+- **Experiment 7:**  
+Notebook: []()  
+Abstract:   
+Expected Result:  
+Pass:
