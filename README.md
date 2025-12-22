@@ -12,12 +12,12 @@ Post Experiments:  Was SA used? [Main Code.1]() I checked if its a weight issue.
 | No | Title             | Purpose | Expected Result | Pass | Repeat with QPU |
 |:---|-------------------|:-----:|-----|:----:|:-----:|
 | #1 | Variable Count    | Testing | Correct No | ✅ | ❌ |
-| #2 | Coefficient Range | Research | penalties ~10–100× objective | NA | ✅ |
+| #2 | ?Coefficient Range | Research | penalties ~10–100× objective | NA | ✅ |
 | #3 | All zero energy   | Test | Cost too high | ✅ | ❌ |
 | #4 | Classical vehicle | Test | Lowest cost when constraint satisfied | ❌ | ❌ |
-| #5 | Feasibility check | Test | all violations = 0 | ✅ | ✅ |
+| #5 | Feasibility check | Test | No violations | ✅ | ✅ |
 | #6 | Manual cost check | Test | Match true cost | ✅ | ✅ |
-| #7 | visualization     | Research | continuous, valid routes | NA | ✅ |  
+| #7 | ?visualization     | Research | continuous, valid routes | NA | ✅ |  
 <br>
 
 - **Experiment 1: Variable Count**  
@@ -40,22 +40,27 @@ Expected Result: Cost too high
 Pass: ✅
 
 - **Experiment 4:**  
-Notebook: []()  
-Abstract:   
-Expected Result:  
+Notebook: [Classical Vehicle]()  
+Abstract: This
+test is to verify that each “exactly once” constraint (such as visiting a customer once or starting from the depot once) is correctly 
+encoded in the QUBO model. 
+Expected Result: The valid sample should have a lower cost compared to other samples. 
 Pass: ❌
 
 - **Experiment 5:**  
-Notebook: []()  
-Abstract:   
-Expected Result:  
-Pass:
+Notebook: [Feasibility Check]()  
+Abstract: Due to the probabilistic and heuristic nature of quantum annealing, a low energy solution does not necessarily
+mean it's feasible. This experiment introduces a feasibility checking test to make sure the candidate solution
+satisfies every constraint in the model.  
+Expected Result: All constraints should be feasible
+Pass: ✅
 
 - **Experiment 6:**  
-Notebook: []()  
-Abstract:   
-Expected Result:  
-Pass:
+Notebook: [Manual Cost Check]()  
+Abstract: This experiment ensures that the energy calculated by the BQM accurately represents the true routing cost of the
+optimal solution. This is done by manually calculating the cost and comparing it with the solver's result.
+Expected Result: Manually calculated cost should match solver's cost.
+Pass: ✅
 
 - **Experiment 7:**  
 Notebook: []()  
