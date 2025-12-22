@@ -1,23 +1,25 @@
 # Democritus
 
-## Prototype: STAGE 1
+## STAGE 1: Prototype
 This prototype disvocers the eligibitly of the following sktech, it was made mostly by ChatGPT.
 
 Pre Experiments: This is the first prototype I have created for the project: [Main Code](https://github.com/omaralsebaey/Democritus/blob/main/MainCode.ipynb). It is the main backend algorithm. For prototyping purposes the objective and constraints will be developed as a CQM, and converted to BQM. For each experiment, the added code for experimentation is surrounded by comments to signify so. Due to accessibilty constraints, I only have access to classical solvers. Hence some experiments should be repeated with a real QPU. For now, I will be using the *ExactSolver* and the *SimulatedAnnealingSampler*. The *ExactSolver* will be to confirm that the math and algorithms are correct. While the *SimulatedAnnealingSampler* will be for scaling the algorithms to ensure a real QPU will be able to solve it. Finally, some experiments are for testing purposes, to make sure the test subject works, while other experiments are for researching purposes. 
 
 Post Experiments:  Was SA used? [Main Code.1]() I checked if its a weight issue. Moving forward I will be adding less detail to the text as it took too much time. I will try to still maintain efficient documentation, Please refer back to me for any questions or comments.
+Exp 2, the only research one should be postponed to the BQM. 
+MTZ works for small []()
 
 
 ### Experiments Summary    
 | No | Title             | Purpose | Expected Result | Pass | Repeat with QPU |
 |:---|-------------------|:-----:|-----|:----:|:-----:|
 | #1 | Variable Count    | Testing | Correct No | ✅ | ❌ |
-| #2 | ?Coefficient Range | Research | penalties ~10–100× objective | NA | ✅ |
+| #2 | Coefficient Range | Research | NA | NA | ✅ |
 | #3 | All zero energy   | Test | Cost too high | ✅ | ❌ |
 | #4 | Classical vehicle | Test | Lowest cost when constraint satisfied | ❌ | ❌ |
 | #5 | Feasibility check | Test | No violations | ✅ | ✅ |
 | #6 | Manual cost check | Test | Match true cost | ✅ | ✅ |
-| #7 | ?visualization     | Research | continuous, valid routes | NA | ✅ |  
+| #7 | Visualization     | Research | continuous, valid routes | NA | ✅ |  
 <br>
 
 - **Experiment 1: Variable Count**  
@@ -25,12 +27,6 @@ Notebook: [Variable Count](https://github.com/omaralsebaey/Democritus/blob/main/
 Abstract: This test is to check if the BQM contains all required variables. Nothing extra, Nothing missing.  
 Expected Result: Correct Number of variables.  
 Pass: ✅
-
-- **Experiment 2:**  
-Notebook: []()  
-Abstract:   
-Expected Result:  
-Pass:
 
 - **Experiment 3: All Zero Solution**  
 Notebook: [All Zero Solution](https://github.com/omaralsebaey/Democritus/blob/main/Experiment3.ipynb)  
@@ -63,7 +59,7 @@ Expected Result: Manually calculated cost should match solver's cost.
 Pass: ✅
 
 - **Experiment 7:**  
-Notebook: []()  
+Notebook: [Visualization]()  
 Abstract:   
 Expected Result:  
 Pass:
