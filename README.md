@@ -8,6 +8,7 @@ Pre Experiments: This is the first prototype I have created for the project: [Ma
 Post Experiments:  Was SA used? [Main Code.1]() I checked if its a weight issue. Moving forward I will be adding less detail to the text as it took too much time. I will try to still maintain efficient documentation, Please refer back to me for any questions or comments.
 Exp 2, the only research one should be postponed to the BQM. 
 MTZ works for small []()
+repeat with QPU?
 
 
 ### Experiments Summary    
@@ -19,7 +20,7 @@ MTZ works for small []()
 | #4 | Classical vehicle | Test | Lowest cost when constraint satisfied | ❌ | ❌ |
 | #5 | Feasibility check | Test | No violations | ✅ | ✅ |
 | #6 | Manual cost check | Test | Match true cost | ✅ | ✅ |
-| #7 | Visualization     | Research | continuous, valid routes | NA | ✅ |  
+| #7 | Visualization     | Research | continuous, valid routes | ❌ | ✅ |  
 <br>
 
 - **Experiment 1: Variable Count**  
