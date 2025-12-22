@@ -41,7 +41,7 @@ Notebook: [Classical Vehicle]()
 Abstract: This
 test is to verify that each “exactly once” constraint (such as visiting a customer once or starting from the depot once) is correctly 
 encoded in the QUBO model. 
-Expected Result: The valid sample should have a lower cost compared to other samples. 
+Expected Result: The valid sample should have a lower cost compared to other samples.  
 Pass: ❌
 
 - **Experiment 5:**  
@@ -49,14 +49,14 @@ Notebook: [Feasibility Check]()
 Abstract: Due to the probabilistic and heuristic nature of quantum annealing, a low energy solution does not necessarily
 mean it's feasible. This experiment introduces a feasibility checking test to make sure the candidate solution
 satisfies every constraint in the model.  
-Expected Result: All constraints should be feasible
+Expected Result: All constraints should be feasible  
 Pass: ✅
 
 - **Experiment 6:**  
 Notebook: [Manual Cost Check]()  
 Abstract: This experiment ensures that the energy calculated by the BQM accurately represents the true routing cost of the
 optimal solution. This is done by manually calculating the cost and comparing it with the solver's result.
-Expected Result: Manually calculated cost should match solver's cost.
+Expected Result: Manually calculated cost should match solver's cost.  
 Pass: ✅
 
 - **Experiment 7:**  
