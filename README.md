@@ -60,7 +60,7 @@ Expected Result: Manually calculated cost should match solver's cost.
 Pass: ✅
 
 - **Experiment 7:**  
-Notebook: [Visualization]()  
+Notebook: [Visualization](https://github.com/omaralsebaey/Democritus/blob/main/Experiment6.ipynb)  
 Abstract:   
 Expected Result:  
 Pass:
