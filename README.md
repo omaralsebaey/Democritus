@@ -33,14 +33,14 @@ Pass: ✅
 Notebook: [All Zero Solution](https://github.com/omaralsebaey/Democritus/blob/main/Experiment3.ipynb)  
 Abstract: We need to make sure the solver does not think that an all zero solution (as in no routes used, 
 no customers visited) is a viable solution.  
-Expected Result: Cost too high  
+Expected Result: Cost too high.  
 Pass: ✅
 
 - **Experiment 4:**  
 Notebook: [Classical Vehicle]()  
 Abstract: This
 test is to verify that each “exactly once” constraint (such as visiting a customer once or starting from the depot once) is correctly 
-encoded in the QUBO model. 
+encoded in the QUBO model.  
 Expected Result: The valid sample should have a lower cost compared to other samples.  
 Pass: ❌
 
@@ -49,18 +49,19 @@ Notebook: [Feasibility Check](https://github.com/omaralsebaey/Democritus/blob/ma
 Abstract: Due to the probabilistic and heuristic nature of quantum annealing, a low energy solution does not necessarily
 mean it's feasible. This experiment introduces a feasibility checking test to make sure the candidate solution
 satisfies every constraint in the model.  
-Expected Result: All constraints should be feasible  
+Expected Result: All constraints should be feasible.  
 Pass: ✅
 
 - **Experiment 6:**  
-Notebook: [Manual Cost Check]()  
+Notebook: [Manual Cost Check](https://github.com/omaralsebaey/Democritus/blob/main/Experiment6.ipynb)  
 Abstract: This experiment ensures that the energy calculated by the BQM accurately represents the true routing cost of the
-optimal solution. This is done by manually calculating the cost and comparing it with the solver's result.
+optimal solution. This is done by manually calculating the cost and comparing it with the solver's result.  
 Expected Result: Manually calculated cost should match solver's cost.  
 Pass: ✅
 
 - **Experiment 7:**  
 Notebook: [Visualization](https://github.com/omaralsebaey/Democritus/blob/main/Experiment6.ipynb)  
-Abstract:   
-Expected Result:  
-Pass:
+Abstract:  This test visualizes solver outputs as ordered vehicle routes to verify continuity and physical validity.  
+Expected Result: Possible routes.  
+Pass: ❌
+
