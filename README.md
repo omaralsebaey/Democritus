@@ -20,7 +20,7 @@ repeat with QPU?
 | #4 | Classical vehicle | Test | Lowest cost when constraint satisfied | ❌ | ❌ |
 | #5 | Feasibility check | Test | No violations | ✅ | ✅ |
 | #6 | Manual cost check | Test | Match true cost | ✅ | ✅ |
-| #7 | Visualization     | Research | continuous, valid routes | ❌ | ✅ |  
+| #7 | Visualization     | Test | Valid routes | ❌ | ✅ |  
 <br>
 
 - **Experiment 1: Variable Count**  
@@ -37,7 +37,7 @@ Expected Result: Cost too high.
 Pass: ✅
 
 - **Experiment 4:**  
-Notebook: [Classical Vehicle]()  
+Notebook: [Classical Vehicle](https://github.com/omaralsebaey/Democritus/blob/main/Experiment4.ipynb)  
 Abstract: This
 test is to verify that each “exactly once” constraint (such as visiting a customer once or starting from the depot once) is correctly 
 encoded in the QUBO model.  
@@ -61,7 +61,7 @@ Pass: ✅
 
 - **Experiment 7:**  
 Notebook: [Visualization](https://github.com/omaralsebaey/Democritus/blob/main/Experiment6.ipynb)  
-Abstract:  This test visualizes solver outputs as ordered vehicle routes to verify continuity and physical validity.  
+Abstract: This test visualizes solver outputs as ordered vehicle routes to verify continuity and physical validity.  
 Expected Result: Possible routes.  
 Pass: ❌
 
