@@ -1,14 +1,14 @@
 # Democritus
 
 ## STAGE 1: Prototype
-This prototype disvocers the eligibitly of the following sktech, it was made mostly by ChatGPT.
-
 Pre Experiments: This is the first prototype I have created for the project: [Main Code](https://github.com/omaralsebaey/Democritus/blob/main/MainCode.ipynb). It is the main backend algorithm. For prototyping purposes the objective and constraints will be developed as a CQM, and converted to BQM. For each experiment, the added code for experimentation is surrounded by comments to signify so. Due to accessibilty constraints, I only have access to classical solvers. Hence some experiments should be repeated with a real QPU. For now, I will be using the *ExactSolver* and the *SimulatedAnnealingSampler*. The *ExactSolver* will be to confirm that the math and algorithms are correct. While the *SimulatedAnnealingSampler* will be for scaling the algorithms to ensure a real QPU will be able to solve it. Finally, some experiments are for testing purposes, to make sure the test subject works, while other experiments are for researching purposes. 
 
-Post Experiments:  Was SA used? [Main Code.1]() I checked if its a weight issue. Moving forward I will be adding less detail to the text as it took too much time. I will try to still maintain efficient documentation, Please refer back to me for any questions or comments.
+Post Experiments: Clarify Problem, add detials.
+Was SA used? [Main Code.1]() I checked if its a weight issue. 
+Moving forward I will keep my text more direct as it took too much time. I will try to still maintain efficient documentation, Please refer back to me for any questions or comments.
 Exp 2, the only research one should be postponed to the BQM. 
-MTZ works for small []()
 repeat with QPU?
+This prototype disvocers the eligibitly of the following sktech, it was made mostly by ChatGPT.
 
 
 ### Experiments Summary    
