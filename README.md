@@ -9,18 +9,18 @@ Moving forward I will keep my text more direct as it took too much time. I will 
 Exp 2, the only research one should be postponed to the BQM. 
 repeat with QPU?
 This prototype disvocers the eligibitly of the following sktech, it was made mostly by ChatGPT.
-
+so then i went to exp 7 and found the subtours issue, so is that the problem? solved it, still same issue
 
 ### Experiments Summary    
 | No | Title             | Purpose | Expected Result | Pass | Repeat with QPU |
 |:---|-------------------|:-----:|-----|:----:|:-----:|
-| #1 | Variable Count    | Testing | Correct No | ✅ | ❌ |
-| #2 | Coefficient Range | Research | NA | NA | ✅ |
-| #3 | All zero energy   | Test | Cost too high | ✅ | ❌ |
-| #4 | Classical vehicle | Test | Lowest cost when constraint satisfied | ❌ | ❌ |
-| #5 | Feasibility check | Test | No violations | ✅ | ✅ |
-| #6 | Manual cost check | Test | Match true cost | ✅ | ✅ |
-| #7 | Visualization     | Test | Valid routes | ❌ | ✅ |  
+| 1 | Variable Count    | Testing | Correct No | ✅ | ❌ |
+| 2 | Coefficient Range | Research | NA | NA | ✅ |
+| 3 | All zero energy   | Test | Cost too high | ✅ | ❌ |
+| 4 | Classical vehicle | Test | Lowest cost when constraint satisfied | ❌ | ❌ |
+| 5 | Feasibility check | Test | No violations | ✅ | ✅ |
+| 6 | Manual cost check | Test | Match true cost | ✅ | ✅ |
+| 7 | Visualization     | Test | Valid routes | ❌ | ✅ |  
 <br>
 
 - **Experiment 1: Variable Count**  
