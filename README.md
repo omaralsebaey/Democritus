@@ -3,14 +3,19 @@
 ## STAGE 1: Prototype
 **Pre Experiments:** This is the first prototype I have created for the project: [Main Code](https://github.com/omaralsebaey/Democritus/blob/main/MainCode.ipynb). It is the main backend algorithm. For prototyping purposes the objective and constraints will be developed as a CQM, and converted to BQM. For each experiment, the added code for experimentation is surrounded by comments to signify so. Due to accessibilty constraints, I only have access to classical solvers. Hence some experiments should be repeated with a real QPU. For now, I will be using the *ExactSolver* and the *SimulatedAnnealingSampler*. The *ExactSolver* will be to confirm that the math and algorithms are correct. While the *SimulatedAnnealingSampler* will be for scaling the algorithms to ensure a real QPU will be able to solve it. Finally, some experiments are for testing purposes, to make sure the test subject works, while other experiments are for researching purposes. 
 
-**Post Experiments:** Clarify Problem, add detials.
-Was SA used? [Main Code.1]() I checked if its a weight issue. 
+**Post Experiments:** I will split this xxxx into three parts, Problem #1: Exp 4, Probelm #2: MTZ, Furhter Notes.
+- Problem #1: Exp 4
+Experiemtn 4 has failed. Hence I started tracking where ghe problem is, whether its a logical fault itht he protoype, fault in the experiemnt, or something else. To narrow down where the issue is, I continued the other experiments, 5,6, and 7. As they may reveal something valuable. Exp 5 and 6 passed but not 7. Exp 7 clearly showed that the prototype creates subtours. So I decided to fix that and see how it affects Exp 4. I made a new version of the main code MainCode.1(), which includes a MTZ constrain. Which indeed fixed the Exp 7, but not Exp 4. So now the conclusion I have reached is to move on to the next stage the BQM. As it’s possible moving to the BQM can resolve the issue on its own. Worst case scenario solving the issue is postponed. I see this is a relieving choice to go for, since I am entering my final exams season at the current stage.
+- Problem #2: MTZ
+I am currrently facing irony. The MTZ constraint which resolves a significant issue I have is an problem of itself. Though it is a great contraint, it only works for the current CQM, and collapses when given a large BQM. So moving to the next stage I will have to eliminate subtours using a BQM friendly method. I should I have taken that into consideration before adding the MTZ.
+- Further Notes
+There are various other comments on the prototypes and experiments. 
+Was SA used? 
 Moving forward I will keep my text more direct as it took too much time. I will try to still maintain efficient documentation, Please refer back to me for any questions or comments.
 Exp 2, the only research one should be postponed to the BQM. 
 repeat with QPU?
 This prototype disvocers the eligibitly of the following sktech, it was made mostly by ChatGPT.
-so then i went to exp 7 and found the subtours issue, so is that the problem? solved it, still same issue
-I will split this part into three parts, problem 1, problem 2, other notes
+
 
 ### Experiments Summary    
 | No | Title             | Purpose | Expected Result | Pass | Repeat with QPU |
