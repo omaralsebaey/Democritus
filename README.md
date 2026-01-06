@@ -64,7 +64,7 @@ Expected Result: Manually calculated cost should match solver's cost.
 Pass: ✅
 
 - **Experiment 7:**  
-Notebook: [Visualization](https://github.com/omaralsebaey/Democritus/blob/main/Experiment6.ipynb)  
+Notebook: [Visualization](https://github.com/omaralsebaey/Democritus/blob/main/Experiment7.ipynb)  
 Abstract: This test visualizes solver outputs as ordered vehicle routes to verify continuity and physical validity.  
 Expected Result: Possible routes.  
 Pass: ❌
