@@ -1,6 +1,5 @@
-# Democritus
+# VRP Prototype
 
-## STAGE 1: Prototype
 **Pre Experiments:**  
 This is the first prototype I have created for the project: [Main Code](https://github.com/omaralsebaey/Democritus/blob/main/MainCode.ipynb), which tries to implement these [Objectives and Constraints](https://github.com/omaralsebaey/Democritus/blob/main/Objective.pdf). It is the main backend algorithm. For prototyping purposes the objective and constraints will be developed as a CQM, and converted to BQM. For each experiment, the added code for experimentation is surrounded by comments to signify so. Due to accessibilty constraints, I only have access to classical solvers. Hence some experiments should be repeated with a real QPU. For now, I will be using the *ExactSolver* and the *SimulatedAnnealingSampler*. The *ExactSolver* will be to confirm that the math and algorithms are correct. While the *SimulatedAnnealingSampler* will be for scaling the algorithms to ensure a real QPU will be able to solve it. Finally, most experiments are for testing purposes, to make sure the test subject works, while one experiment (Exp 2) is for researching purposes. 
 
